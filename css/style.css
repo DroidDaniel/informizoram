@@ -61,12 +61,19 @@ nav{
     right: 0;
     background: #ccc;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 85px;
     }
 }
 
 .navbar_mob .navbar_ul{
     width: 50%;
+}
+
+
+@media screen and (max-width:600px) {
+    .navbar_mob .navbar_ul{
+        width: 100%;
+    }   
 }
 
 .navbar_li{
@@ -76,8 +83,14 @@ nav{
 
 @media screen and (max-width:992px) {
     .navbar_li{
-        padding: 20px 10px;
+        padding: 20px 20px;
+        opacity: 0;
+        transition: all .3s ease;
     }
+
+    .navbar_mob .navbar_li{
+        opacity: 1;
+    } 
 }
 
 .navbar_anchor,.register_btn{
@@ -105,6 +118,8 @@ nav{
     .active_nav{
         border-bottom: none;
         color: #297de9;
+        display: block;
+        width: 100%;
     }   
 }
 
@@ -168,4 +183,8 @@ nav{
     transform: rotate(-45deg) translate(0, 14px);
 }
 
+}
+
+.registerbar{
+    position: relative;
 }
