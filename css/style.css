@@ -19,6 +19,12 @@ body{
     }
 }
 
+.info_common__container{
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
 .navbar{
     width: 100%;
     max-width: 1320px;
@@ -114,7 +120,7 @@ nav{
 }
 
 .navbar_anchor:hover{
-    border-bottom: solid 5px #dbe1e8;
+    border-bottom: solid 5px #8cb9ed;
 }
 
 .active_nav{
@@ -191,4 +197,10 @@ nav{
 
 .registerbar{
     position: relative;
+}
+
+
+/***************form section*******************/
+.form_sec{
+    padding: 60px 0;
 }
