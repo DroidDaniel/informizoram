@@ -106,8 +106,15 @@ nav{
     border-bottom: solid 5px transparent;
 }
 
+@media screen and (max-width:992px) {
+    .navbar_anchor{
+        display: block;
+        width: 100%;
+    }   
+}
+
 .navbar_anchor:hover{
-    border-bottom: solid 5px #297de9;
+    border-bottom: solid 5px #dbe1e8;
 }
 
 .active_nav{
@@ -116,10 +123,7 @@ nav{
 
 @media screen and (max-width:992px) {
     .active_nav{
-        border-bottom: none;
-        color: #297de9;
-        display: block;
-        width: 100%;
+       color: #297de9;
     }   
 }
 
