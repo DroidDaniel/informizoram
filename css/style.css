@@ -281,7 +281,13 @@ nav{
 } */
 
 .banner_vid{
-    padding:  0;
+    padding:  10px 0 0 0;
+}
+
+@media screen and (max-width:992px) {
+    .banner_vid{
+        padding: 0;
+    }
 }
 
 .banner_vid video{
