@@ -176,12 +176,16 @@ nav{
     border-radius: 10px;
     letter-spacing: 1px;
     font-weight: 700;
-    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+            box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
     transition: all .3s ease; 
 }
 
 .register_btn:hover{
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 @media screen and (max-width:992px) {
@@ -191,7 +195,8 @@ nav{
         padding: 15px 20px;
     }
     .register_btn:hover{
-        box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+        -webkit-box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+                box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
     }
 }
 
@@ -258,27 +263,6 @@ nav{
 
 
 /**************Banner Section Start*******************/
-/*.banner_info{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-@media screen and (max-width:600px) {
-    .banner_info{
-        flex-direction: column-reverse;
-    }
-}
-
-.banner_qr img{
-    width: 100%;
-    max-width: 400px;
-}
-
-.banner_hero img{
-    width: 100%;
-    max-width: 600px;
-} */
 
 .banner_vid{
     padding:  10px 0 0 0;
@@ -292,6 +276,23 @@ nav{
 
 .banner_vid video{
     width: 100%;
+}
+
+.banner_vid-dktp{
+    display: block;
+}
+
+.banner_vid-mb{
+    display: none;
+}
+
+@media screen and (max-width:992px) {
+    .banner_vid-dktp{
+        display: none;
+    }
+    .banner_vid-mb{
+        display: block;
+    }
 }
 
 /**************Banner Section End*******************/
