@@ -9,6 +9,12 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.common_container{
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
 /**************Nav Bar Start*******************/
 .nav_sec{
     padding: 30px 0 0 0;
@@ -252,13 +258,7 @@ nav{
 
 
 /**************Banner Section Start*******************/
-.common_container{
-    width: 100%;
-    max-width: 1320px;
-    margin: 0 auto;
-}
-
-.banner_info{
+/*.banner_info{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -278,4 +278,14 @@ nav{
 .banner_hero img{
     width: 100%;
     max-width: 600px;
+} */
+
+.banner_vid{
+    padding: 10px 0;
 }
+
+.banner_vid video{
+    width: 100%;
+}
+
+/**************Banner Section End*******************/
