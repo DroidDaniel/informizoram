@@ -286,7 +286,7 @@ nav{
     display: none;
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:600px) {
     .banner_vid-dktp{
         display: none;
     }
