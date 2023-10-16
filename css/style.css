@@ -765,10 +765,10 @@ h2 {
 
 @media screen and (max-width:600px) {
 	.achive_dkstp{
-		display: block;
+		display: none;
 	}
 	.achive_mob{
-		display: none;
+		display: block;
 	}
 }
 
