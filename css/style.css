@@ -68,7 +68,7 @@ body{
 @media screen and (max-width:1000px) {
     .navbar_lead img,.navbar_logo img{
         position: relative;
-        z-index: 2;
+        z-index: 3;
         width: 120px;
     }
 }
@@ -89,7 +89,7 @@ body{
     height: 100%;
     width: 0%;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     top: 0;
     right: 0;
     background: #fff;
@@ -262,7 +262,7 @@ body{
 .nav_menu{
     display: block;
     position: relative;
-    z-index: 2;
+    z-index: 3;
     top: 4px;
     right: 18px;
     padding: 10px;
@@ -773,3 +773,15 @@ h2 {
 }
 
 /**************Achivement Section End*******************/
+
+.banner_vid{
+	position: relative;
+}
+
+.banner_live__img{
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	cursor: pointer;
+	z-index: 1;
+}
