@@ -35,6 +35,7 @@ body{
 .navbar{
     width: 100%;
     max-width: 1320px;
+    padding: 0 15px;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -48,12 +49,6 @@ body{
 }
 
 @media screen and (max-width:1000px) {
-    .navbar{
-        padding: 0 15px;
-    }
-}
-
-@media screen and (max-width:1000px) {
     nav{
         border-bottom: none;
         order: 3;
@@ -61,11 +56,11 @@ body{
 }
 
 .navbar_lead img{
-    width: 175px;
+    width: 120px;
 }
 
 .navbar_logo img{
-    width: 160px;
+    width: 120px;
 }
 
 @media screen and (max-width:1000px) {
@@ -140,7 +135,7 @@ body{
     position: relative;
     color: #000;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 28px;
     padding: 0 0 10px 0;
     -webkit-transition: all .3s ease;
