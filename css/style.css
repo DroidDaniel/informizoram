@@ -37,7 +37,7 @@ body{
     max-width: 1320px;
     padding: 0 15px;
     margin: 0 auto;
-    display: -webkit-box;
+    display: -webkit-bo-x;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
@@ -193,6 +193,11 @@ body{
 
 .disable{
     color: #848484;
+	transition: all .3s ease;
+}
+
+.disable:hover{
+	color: #000;
 }
 
 /* .navbar_anchor:hover{
@@ -1007,3 +1012,29 @@ a {
 	display: none;
 }
 /**************Filter gallery End*******************/
+/************Promises Start*******************/
+.promises_sec{
+	padding: 60px 0;
+}
+
+@media screen and (max-width:600px) {
+	.promises_sec{
+		padding: 30px 0;
+	}	
+}
+
+.promises_wrapper{
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.promises_info img{
+	width: 100%;
+	max-width: 340px;
+	border: solid 1px #ccc;
+}
+/************Promises End*******************/
+
