@@ -61,7 +61,7 @@ $(document).ready(function () {
         });
 
         closeBtn.classList.add("closeBtn");
-        closeBtn.innerText = "Close";
+        closeBtn.innerText = " ";
         closeBtn.addEventListener("click", function () {
           openDiv.remove();
         });
@@ -85,32 +85,6 @@ $("document").ready(function () {
   setTimeout(function () {
     $(".canvasbtn").trigger("click");
   }, 10);
-
-  //filter start
-  let switcherLi = document.querySelectorAll(".switcher li");
-  let imgs = Array.from(document.images);
-
-  switcherLi.forEach((li) => {
-    li.addEventListener("click", removeActive);
-    li.addEventListener("click", filter);
-  });
-
-  function removeActive() {
-    switcherLi.forEach((li) => {
-      li.classList.remove("active");
-      this.classList.add("active");
-    });
-  }
-
-  function filter() {
-    imgs.forEach((img) => {
-      img.style.display = "none";
-    });
-    document.querySelectorAll(this.dataset.cat).forEach((el) => {
-      el.style.display = "block";
-    });
-  }
-  //filter end
 });
 
 //Book js
