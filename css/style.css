@@ -881,13 +881,14 @@ a {
   .closeBtn {
 	position: absolute;
 	font-size: 12px;
+	border-radius: 100%;
 	font-weight: 500;
 	right: 25px;
 	top: 25px;
 	color: white;
 	transition: 0.5s linear;
-	padding: 8px 15px;
-	outline-offset: -6px;
+	outline: none;
+	border: none;
 	background: none;
   }
   .closeBtn:hover {
@@ -954,9 +955,7 @@ a {
 	  margin: 8px 8px;
 	  width: 175px;
 	}
-	.closeBtn {
-	  padding: 6px 25px;
-	}
+	
 	.prevButton,
 	.nextButton {
 	  font-size: 18px;
@@ -976,7 +975,7 @@ a {
   
 	.closeBtn {
 	  font-size: 12px;
-	  border-radius: 15px;
+	
 	}
 	.prevButton,
 	.nextButton {
