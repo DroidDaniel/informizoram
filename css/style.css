@@ -338,7 +338,7 @@ background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(1,107,154,0.319765406
 }
 
 .banner_info{
-	max-width: 550px;
+	max-width: 530px;
 	text-align: center;
 	position: absolute;
 	z-index: 2;
@@ -891,7 +891,7 @@ a {
 	padding: 8px 12px;
 	margin: 5px 4px 4px 0;
 	display: inline-block;
-	color: #fff;
+	color: #000;
 	border: 1px solid #000;
 	transition: all 0.4s;
 	border-radius: 3px;
@@ -1092,7 +1092,7 @@ a {
 
 .promises_info img{
 	width: 100%;
-	max-width: 340px;
+	max-width: 600px;
 	border: solid 1px #ccc;
 }
 /************Promises End*******************/

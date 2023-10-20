@@ -66,11 +66,11 @@
       <div class="common_container">
         <div class="section-padding gallery-section" id="gallery">
           <div class="container">
-            <!-- <div id="btncontainer" class="filter">
-              <a class="btn btn-active" href="#all">ALL</a>
-              <a class="btn" href="#Photos">Photos</a>
-              <a class="btn" href="#Videos">Videos</a>
-            </div> -->
+            <div id="btncontainer" class="filter">
+              <!-- <a class="btn btn-active" href="#all">ALL</a> -->
+              <a class="btn filter_item" href="#Photos">Photos</a>
+              <a class="btn" href="https://www.youtube.com/@MPCC2023" target="_blank">Videos</a>
+            </div>
             <!-- Gallery Section Start -->
             <div class="gallery sets">
               <a class="all Photos">
@@ -151,7 +151,7 @@
               <a class="all Photos">
                 <img src="images/archives/photos/photo-26.jpeg" class="img_thumbnail" />
               </a>
-              <a class="all Videos" href="https://www.youtube.com/watch?v=EBUVARErbek" target="_blank">
+              <!-- <a class="all Videos" href="https://www.youtube.com/watch?v=EBUVARErbek" target="_blank">
                 <div class="vid_play_ico">
                   <img src="images/yu-play.png" alt="play-ico" />
                 </div>
@@ -162,7 +162,7 @@
                   <img src="images/yu-play.png" alt="play-ico" />
                 </div>
                 <img src="https://placehold.co/360" class="img_thumbnail" />
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
@@ -176,8 +176,9 @@
           $(".navbar").toggleClass("navbar_mob");
         });
         //gallery start
-        $(".filter a").click(function(e) {
+        $(".filter .filter_item").click(function(e) {
           e.preventDefault();
+          location.reload();
           var a = $(this).attr("href");
           a = a.substr(1);
           $(".sets a").each(function() {
