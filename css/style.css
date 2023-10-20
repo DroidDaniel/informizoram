@@ -13,6 +13,7 @@ body{
     width: 100%;
     max-width: 1320px;
     margin: 0 auto;
+	padding: 0 20px;
 }
 
 /**************Nav Bar Start*******************/
@@ -1096,4 +1097,36 @@ a {
 	border: solid 1px #ccc;
 }
 /************Promises End*******************/
+
+/************Footer Start*******************/
+footer{
+	padding: 20px 0;
+	border-top:solid 1px #ccc;
+}
+.footer_copy__txt{
+	font-size: 12px;
+	color: #504e4e;
+}
+.footer__info{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.social__media_link a img{
+	width: 100%;
+	max-width: 22px;
+}
+
+.social__media_wrap{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.social__media_link{
+	list-style-type: none;
+}
+
+/************Footer End*******************/
+
 
