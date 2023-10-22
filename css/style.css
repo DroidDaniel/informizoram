@@ -74,6 +74,11 @@ body{
     }
 }
 
+@media screen and (max-width:380px) {
+    .navbar_lead img,.navbar_logo img{
+        width: 90px;
+    }
+}
 .navbar_ul{
     display: -webkit-box;
     display: -ms-flexbox;
