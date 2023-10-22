@@ -369,7 +369,7 @@ background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(1,107,154,0.319765406
 
 @media screen and (max-width:600px) {
 	.banner_txt{
-		font-size: 14px;
+		font-size: 16px;
 		line-height: 22px;
 	}	
 }
