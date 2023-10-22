@@ -92,7 +92,7 @@ body{
 
 @media screen and (max-width:1000px) {
     .navbar_ul{
-    height: 100%;
+    height: 200%;
     width: 0%;
     position: absolute;
     z-index: 33;
